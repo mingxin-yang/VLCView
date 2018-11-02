@@ -1,5 +1,3 @@
-package im.autobot.cheche.camera;
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
@@ -28,8 +26,6 @@ import org.videolan.libvlc.MediaPlayer;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
-
-import im.autobot.mirrorlink.common.ApplicationContext;
 
 
 public class VideoViewer extends SurfaceView implements IVLCVout.Callback {
